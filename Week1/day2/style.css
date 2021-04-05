@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    /*display: inline;*/
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+li a:hover {
+    background-color: #d7d7d7;
+}
+
+.logo2 {
+    border-radius: 5px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background-color: #ececec;
+    border-radius: 3px;
+
+}
+

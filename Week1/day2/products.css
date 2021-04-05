@@ -1,0 +1,53 @@
+
+.products {
+    margin: auto;
+    width: 90%;
+    padding: 50px;
+}
+main .text{
+    position: relative;
+    top: 150px;
+}
+
+.text-card {
+    display: inline-block;
+    padding: 5px;
+    width: 250px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+
+.heading1 {
+    background-image: url("https://www.simphone.co.il/wp-content/uploads/2020/11/2dcb30702dadeaa01dd12cbcf8798bd1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    color: white;
+    font-size: 40px;
+}
+
+.heading2 {
+    background-image: url("https://www.simphone.co.il/wp-content/uploads/2021/03/e001091600_0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    color: white;
+    font-size: 40px;
+}
+
+.heading3 {
+    background-image: url("https://www.simphone.co.il/wp-content/uploads/2020/12/%D7%9C%D7%9C%D7%90-%D7%A9%D7%9D-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    color: white;
+    font-size: 40px;
+}
+
+.text-box {
+    padding:10px;
+}
