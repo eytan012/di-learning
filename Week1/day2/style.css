@@ -8,7 +8,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
 li {
@@ -16,7 +15,7 @@ li {
     float: right;
 }
 
-li a {
+li a  {
     display: block;
     color: black;
     text-align: center;
@@ -24,10 +23,6 @@ li a {
     background-color: #ffffff;
     text-decoration: none;
     font-size: 17px;
-}
-
-li a:hover {
-    background-color: #d7d7d7;
 }
 
 .logo2 {
@@ -46,3 +41,18 @@ li a:hover {
 
 }
 
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 480px) { }

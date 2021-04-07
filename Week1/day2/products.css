@@ -51,3 +51,11 @@ main .text{
 .text-box {
     padding:10px;
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}

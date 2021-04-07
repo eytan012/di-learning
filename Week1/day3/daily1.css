@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div div div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.group1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.group2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.group3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
