@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact<span class="badge bg-secondary">4</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">One</a></li>
+                        <li><a class="dropdown-item" href="#">Two</a></li>
+                        <li><a class="dropdown-item" href="#">Three</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <i class="fa fa-sign-in me-3" style="font-size: 36px; color: white" aria-hidden="true"></i>
+                <input class="form-control me-2" type="email" placeholder="Email" aria-label="Email">
+                <input class="form-control me-2" type="password" placeholder="Password" aria-label="Password">
+                <button class="btn btn-outline-primary" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div
+        class="p-0 text-center bg-image"
+        style="
+        background-size: cover;
+      background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHRlY2h8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+      height: 350px;
+    "
+>
+
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.8); height: 100%; width: 100%">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+                <h1 class="mb-3">Hello World!</h1>
+                <h4 class="mb-3">Hello World!</h4>
+                <a class="btn btn-primary btn-lg" href="#!" role="button"
+                >Learn more</a
+                >
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="alert alert-secondary text-center" role="alert">
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto culpa delectus, distinctio dolorem
+        dolorum eligendi eveniet incidunt magni minus, molestiae natus non quo ratione reprehenderit veniam voluptas
+        voluptatibus? Perferendis?
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <h3 class="mb-3">Hello World!</h3>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto at autem blanditiis
+                consequatur delectus dignissimos, enim error facilis harum hic iure non numquam, officia, perferendis
+                quos repudiandae tempora voluptatum!
+            </div>
+            <button style=" padding-top: 6px; margin-top: 10px;" type="button" class="btn btn-primary btn-md"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                View Details
+            </button>
+        </div>
+        <div class="col-4">
+            <h3 class="mb-3">Hello World!</h3>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet, architecto dignissimos dolores enim,
+                ipsam nobis perferendis perspiciatis provident quo saepe, similique temporibus veritatis. Cumque
+                delectus necessitatibus numquam praesentium quidem!
+            </div>
+            <button style=" padding-top: 6px; margin-top: 10px;" type="button" class="btn btn-primary btn-md"><i class="fa fa-address-card" aria-hidden="true"></i>
+                View Details
+            </button>
+
+        </div>
+        <div class="col-4">
+            <h3 class="mb-3">Hello World!<span class="badge bg-primary">New</span></h3>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi error expedita iste maiores nulla quas
+                temporibus veritatis voluptas. Accusamus beatae, dignissimos facere molestiae possimus quam quas
+                sapiente similique sit tempora!
+            </div>
+            <button style=" padding-top: 6px; margin-top: 10px;" type="button" class="btn btn-primary btn-md"><i class="fa fa-envelope-open" aria-hidden="true"></i>
+                View Details
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+            integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+            crossorigin="anonymous"></script>
+
+</body>
+</html>
