@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f35248-7ec7-4d7b-8bd6-787cb39f27b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/blog/imag2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/blog/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/blog/polit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/face1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/face2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/face3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/headerback.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/portfolio/Classic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/portfolio/electric.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/portfolio/port1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/portfolio/port11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/portfolio/port13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/portfolio/port3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/portfolio/port6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/portfolio/port7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/images/portfolio/port8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/portfolio_setup/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/Protfolio2/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/ProtfolioProject/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1/day5/ProtfolioProject/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/day1/daily.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/day1/ex1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/day1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/day4/Bootstrap/daily.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/day4/Bootstrap/daily.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -93,12 +73,20 @@
       <recent name="$PROJECT_DIR$/first day" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.daily.js">
     <configuration name="cv.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/di-learning/Week1/day3/cv.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="daily.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Week2/day1/daily.js" working-dir="$PROJECT_DIR$/Week2/day1">
+      <method v="2" />
+    </configuration>
+    <configuration name="ex1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Week2/day1/ex1.js" working-dir="$PROJECT_DIR$/Week2/day1">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.daily.js" />
+        <item itemvalue="Node.js.ex1.js" />
         <item itemvalue="JavaScript Debug.cv.html" />
       </list>
     </recent_temporary>
@@ -114,6 +102,7 @@
       <workItem from="1617523082178" duration="22151000" />
       <workItem from="1617625281408" duration="33435000" />
       <workItem from="1617863991236" duration="17449000" />
+      <workItem from="1618122032145" duration="4361000" />
     </task>
     <servers />
   </component>
