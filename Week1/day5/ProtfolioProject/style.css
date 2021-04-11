@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,body,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+    height: 100%;
+}
+
+.avatar{
+    width: 150px; !important;
+    border-radius: 50%; !important;
+    alignment: left; !important;
+}
+
+.portfolio img{
+    border-radius: 10px;
+}
+
+.aboutText {
+    border-left: 3px solid gray;
+    border-radius: 5px;
+}
+
+.portfolio{
+
+}
+.nav-item{
+
+}
