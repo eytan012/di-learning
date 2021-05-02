@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+
+<form id="form1" action="index.html" method="get" onsubmit="return convertItems()"
+      style="display: flex; flex-direction: row; width: 250px; margin: 5px">
+    <label><input id="firstname" type="text" name="name"></label>
+    <label><input id="lastname" type="text" name="lastname"></label>
+    <input type="submit" value="Send" style="width: 50px">
+</form>
+
+
+<script>
+    const form = document.getElementById('form1')
+    function convertItems() {
+        const firstname = document.querySelector('#firstname').value
+        const lastname = document.querySelector('#lastname').value
+        const obj = {
+            name: firstname,
+            lastname: lastname
+        }
+        console.log(JSON.stringify(obj))
+        return false
+    }
+</script>
+</body>
+</html>
+

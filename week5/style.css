@@ -1,0 +1,15 @@
+body{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.card {
+    width: 13rem;
+}
+
+.robotCard img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}

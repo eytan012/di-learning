@@ -73,3 +73,6 @@ secondParagraph.addEventListener('click',fadeCssAnimation)
 function fadeCssAnimation(){
     console.log(secondParagraph.innerText)
 }
+
+
+

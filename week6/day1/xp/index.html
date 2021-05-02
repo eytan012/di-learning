@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<form method="post" style="display: flex; flex-direction: column; width: 250px">
+    Name <input type="text" name="name">
+    Comments<label><textarea name="comments"></textarea></label>
+    <input type="submit" value="Send" style="width: 50px">
+</form>
+
+
+<script>
+  let marioGame = {
+    detail : "An amazing game!",
+    characters : {
+      mario : {
+        description:"Small and jumpy. Likes princesses.",
+        height: 10,
+        weight: 3,
+        speed: 12,
+      },
+      bowser : {
+        description: "Big and green, Hates princesses.",
+        height: 16,
+        weight: 6,
+        speed: 4,
+      },
+      princessPeach : {
+        description: "Beautiful princess.",
+        height: 12,
+        weight: 2,
+        speed: 2,
+      }
+    },
+  }
+  const convertToJson = JSON.stringify(marioGame,null,2)
+  console.log(convertToJson)
+</script>
+</body>
+</html>

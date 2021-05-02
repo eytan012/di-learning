@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<div class="banner" style="background-color: chocolate; width: 50%; text-align: center;font-size: 33px;border-radius: 20px; display: none">
+<p>The sales end in 10min !</p>
+</div>
+<script>
+  setTimeout(banner,5000)
+ function banner(){
+ let banner =  document.querySelector('.banner')
+   banner.style.display = "block"
+  }
+</script>
 </body>
 </html>
