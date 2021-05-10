@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+}
+
+.wrapper {
+    border: 7px solid black;
+}
+
+#pokePhoto {
+    position: relative;
+}
+
+.btnRight {
+    position: relative;
+    left: 201px;
+    bottom: 188px;
+    width: 40px;
+    height: 22px;
+    background-color: yellow;
+    margin: 0;
+}
+
+.btnLeft {
+    position: relative;
+    left: 139px;
+    bottom: 165px;
+    width: 40px;
+    height: 22px;
+    background-color: red;
+}
+
+.btnRound {
+    position: relative;
+    left: 700px;
+    bottom: 226px;
+    border-radius: 50%;
+    width: 62px;
+    height: 65px;
+    background-color: transparent;
+}
+
+.pokeDisplay {
+    position: relative;
+    bottom: 668px;
+    left: 300px;
+    width: 250px;
+    height: 200px;
+    background-color: transparent;
+}
+
+.pokeDetails {
+    position: relative;
+    bottom: 554px;
+    left: 300px;
+    width: 250px;
+    height: 200px;
+    background-color: transparent;
+}
+
+#pokeDisplay img{
+    height: 230px;
+    width: 230px;
+}
