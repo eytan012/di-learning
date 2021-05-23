@@ -3,37 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="87f35248-7ec7-4d7b-8bd6-787cb39f27b3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Week3/day1/Playthegame_MiniProject_W2D5/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day4/daily.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day4/xp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day4/xpG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day4/xpGold.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/daily.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/mini-project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/mini-project/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/mini-project/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/pokedex/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/pokedex/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/pokedex/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5*/day5/xp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week6/day1/daily.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week6/day1/xp1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week6/day1/xp2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5*/day5/converter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5*/day5/converter/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/day3/queries.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/day5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/day5/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week6/day5/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day1/script2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day2/lovecalc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day2/lovecalc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day2/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/day3/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/day1/daily/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/day1/daily/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/day1/xp/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/day1/xp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/day1/xp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/day1/xp/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/day1/xp/script2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week3/day1/Playthegame_MiniProject_W2D5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/day1/Playthegame_MiniProject_W2D5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day1/daily/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day1/daily/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day1/xp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day1/xp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day1/xp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day1/xp/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day2/a.js" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day2/a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day2/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day2/xp/b.js" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day2/xp/b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day2/xp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day2/xp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day2/xp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day2/xp/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day2/xp2/d.js" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day2/xp2/d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day2/xp2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day2/xp2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/day2/xp2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/week5*/day2/xp2/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -81,7 +75,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week6/day1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week7/day3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -95,43 +89,43 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week7/day3" />
+      <recent name="$PROJECT_DIR$/week7/day1" />
       <recent name="$PROJECT_DIR$/week6/day1" />
       <recent name="$PROJECT_DIR$/week6/day2/xp2" />
       <recent name="$PROJECT_DIR$/week6/day2/xp" />
-      <recent name="$PROJECT_DIR$/week6/day2" />
-      <recent name="$PROJECT_DIR$/Week3/day3/xp-ex3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/week6/luski" />
+      <recent name="$PROJECT_DIR$/week8/day1/xp" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/week5*/day5/converter" />
+      <recent name="$PROJECT_DIR$/week6/luski" />
       <recent name="$PROJECT_DIR$/Week3/day3/xp-ex3" />
-      <recent name="$PROJECT_DIR$/Week3/day3/classEx" />
-      <recent name="$PROJECT_DIR$/Week3/day2/xp/ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.xpG.js">
-    <configuration name="a.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week5*/day2/a.js" working-dir="$PROJECT_DIR$/week5*/day2">
+  <component name="RunManager" selected="Node.js.main.js">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week8/day1/daily/main.js" working-dir="$PROJECT_DIR$/week8/day1/daily">
       <method v="2" />
     </configuration>
-    <configuration name="class exersices.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week6/day4/class exersices.js" working-dir="$PROJECT_DIR$/week5*/day4">
+    <configuration name="script2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week7/day1/script2.js" working-dir="$PROJECT_DIR$/week7/day1">
       <method v="2" />
     </configuration>
-    <configuration name="daily.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week5*/day4/daily.js" working-dir="$PROJECT_DIR$/week5*/day4">
+    <configuration name="script.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week8/day1/daily/script.js" working-dir="$PROJECT_DIR$/week8/day1/daily">
       <method v="2" />
     </configuration>
-    <configuration name="xpG.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week5*/day4/xpG.js" working-dir="$PROJECT_DIR$/week5*/day4">
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week7/day1/script.js" working-dir="$PROJECT_DIR$/week7/day1">
       <method v="2" />
     </configuration>
-    <configuration name="xp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week5*/day4/xp.js" working-dir="$PROJECT_DIR$/week5*/day4">
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week8/day1/xp/script.js" working-dir="$PROJECT_DIR$/week8/day1">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.xpG.js" />
-        <item itemvalue="Node.js.daily.js" />
-        <item itemvalue="Node.js.xp.js" />
-        <item itemvalue="Node.js.class exersices.js" />
-        <item itemvalue="Node.js.a.js" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.script.js (2)" />
+        <item itemvalue="Node.js.script.js (1)" />
+        <item itemvalue="Node.js.script2.js" />
+        <item itemvalue="Node.js.script.js" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +165,11 @@
       <workItem from="1619593018268" duration="44403000" />
       <workItem from="1620210236226" duration="7808000" />
       <workItem from="1620290997353" duration="17193000" />
-      <workItem from="1620494564627" duration="4932000" />
+      <workItem from="1620494564627" duration="6495000" />
+      <workItem from="1620724365882" duration="556000" />
+      <workItem from="1620735864144" duration="14000" />
+      <workItem from="1620887584890" duration="7437000" />
+      <workItem from="1621280835367" duration="30767000" />
     </task>
     <servers />
   </component>

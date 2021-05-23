@@ -1,0 +1,136 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 SELECT * FROM employees\
+\
+\
+-- Write a query to display the names (first_name, last_name) using an alias name \'93First Name\'94,\
+--\'93Last Name\'94 from the employee table.\
+\
+SELECT first_name,  last_name FROM employees\
+\
+\
+SELECT first_name AS "First Name", last_name AS "Last Name"\
+FROM employees;\
+\
+\
+\
+-- Write a query to get unique departments ID from the employee table (ie. without duplicates).\
+SELECT * FROM employees ORDER BY first_name DESC\
+\
+-- Write a query to get the details of all employees from the employee table, do so in descending order by first name.\
+SELECT * FROM employees ORDER BY first_name DESC\
+\
+\
+\
+-- Write a query to get the names (first_name, last_name), salary and 15% of salary as PF (ie. alias) for all the employees.\
+SELECT first_name, last_name,salary,salary*.15 TT from employees;\
+\
+\
+-- Write a query to get the employee IDs, names (first_name, last_name) and salary in ascending order according to their salary.\
+SELECT employee_id,first_name, last_name FROM employees ORDER BY salary\
+\
+\
+-- Write a query to get the total sum of all salaries paid to the employees.\
+SELECT SUM (salary) AS total FROM employees;\
+\
+\
+-- Write a query to get the maximum and minimum salaries paid to the employees.\
+\
+SELECT MAX(salary) , MIN(salary) FROM employees \
+\
+-- Write a query to get the average salary paid to the employees.\
+SELECT ROUND( AVG(salary)) FROM employees \
+\
+-- Write a query to get the number of employees working in the company.\
+SELECT COUNT (first_name)  FROM employees\
+-- Write a query to get all the first names from the employees table in upper case.\
+SELECT UPPER(first_name)  FROM employees\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+-- Write a query to get the first three characters of each first name of all the employees in the employees table.\
+SELECT SUBSTRING(first_name,1,3) FROM employees;\
+-- Write a query to get the full names of all the employees in the employees table. You have to include the first name and last name.\
+select (first_name || ' '|| last_name) as fn from employees;\
+\
+-- Write a query to get the first name, last name and the length of the full name of all the employees from the employees table.\
+select (first_name || ' '|| last_name),(LENGTH( first_name || ' '|| last_name)) as fn from employees;\
+-- Write a query to check whether the first_name column of the employees table contains any numbers.\
+SELECT first_name FROM employees \
+WHERE  first_name\
+SIMILAR TO '%0|1|2|3|4|5|6|7|8|9|%'\
+-- Write a query to select the first ten records from a table.\
+SELECT * FROM employees \
+ORDER BY hire_date \
+LIMIT(10)\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+-- Write a query to display the first_name, last_name and salary of all employees whose salary is between $10,000 and $15,000.\
+SELECT first_name,last_name,salary FROM  employees \
+WHERE salary < 15000 AND salary > 10000\
+\
+-- Write a query to display the first_name, last_name and hire date of all employees who were hired in 1987.\
+SELECT first_name,last_name,hire_date FROM  employees \
+WHERE hire_date= '1987-06-17'\
+\
+-- Write a query to get the all employees whose first_name has both the letters \'91c\'92 and \'91e\'92.\
+SELECT first_name FROM employees\
+WHERE first_name LIKE '%c%' AND first_name LIKE '%e%';\
+\
+-- Write a query to display the last_name, job, and salary of all the employees who don\'92t work as Programmers or Shipping Clerks,\
+--and who don\'92t receive a salary equal to $4,500, $10,000, or $15,000.\
+SELECT * FROM  jobs\
+SELECT * FROM  employees\
+\
+SELECT last_name,salary,job_title\
+FROM employees\
+INNER JOIN jobs\
+ON employees.job_id= jobs.job_id\
+WHERE job_title !='Programmer' AND job_title !='Shipping Clerk' \
+AND salary != 4500 AND salary != 10000 OR  salary != 15000\
+ORDER BY salary\
+\
+\
+-- Write a query to display the last names of all employees whose last name contains exactly six characters.\
+SELECT last_name FROM  employees \
+WHERE LENGTH (last_name) =6\
+\
+SELECT SUBSTRING(first_name,1,3) FROM employees\
+-- Write a query to display the last name of all employees who have the letter \'91e\'92 as the third character in the name.\
+SELECT last_name FROM employees\
+WHERE   last_name LIKE '__e%';\
+-- Write a query to display the jobs/designations available in the employees table.\
+SELECT DISTINCT(job_id)  FROM employees\
+\
+-- Write a query to select all information of employees whose last name is either \'91JONES\'92 or \'91BLAKE\'92 or \'91SCOTT\'92 or \'91KING\'92 or \'91FORD\'92.\
+SELECT*  FROM employees\
+WHERE last_name ='Jones' OR last_name ='Blake' OR last_name ='Scott' OR last_name ='King' OR last_name ='Ford'}

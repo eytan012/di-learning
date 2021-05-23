@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="root">
+<div class="todo-start">
+    <h3>Todo list mini project</h3>
+    <label for="taskName">Task name:</label><input id="taskName" type="text">
+    <label for="description">Description</label><input id="description" type="text">
+    <br><br>
+    <label for="startDate">Start task:</label><input id="startDate" type="date" name="startDate">
+    <label for="endDate">End task:</label><input id="endDate" type="date" name="endDate">
+    <br><br>
+    <button onclick="addTodo()" type="submit">Add</button>
+    <button onclick="" type="reset">Clear</button>
+</div>
+    <div class="showTodos">
+    <h3 id="tName">Task name:</h3>
+    <h5 id="des">Description:</h5>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
