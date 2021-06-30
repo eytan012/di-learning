@@ -42,7 +42,7 @@ router.post('/', (req, res, next) => {
     const mail = {
         name: req.body.name,
         from: req.body.email,
-        to: 'eytan012@gmail.com',
+        to: process.env.OAUTH_EMAIL,
         subject: 'A message from my blog',
         html: `<h1>${req.body.about}</h1>  <p>${req.body.email}</p>`
     }
