@@ -6,8 +6,8 @@ const OAuth2 = google.auth.OAuth2;
 
 
 const myOAuth2Client = new OAuth2(
-    "270253958906-o3m7l5rc22gicfnds492rqd666au1mmk.apps.googleusercontent.com",
-    "GpiKwXrNtE9YbZ_EbTPU0kHm",
+    process.env.OAUTH_CLIENT_ID,
+    process.env.OAUTH_SECRET,
     "https://developers.google.com/oauthplayground"
 )
 
