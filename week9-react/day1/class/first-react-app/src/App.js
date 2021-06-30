@@ -3,6 +3,8 @@ import './App.css';
 import CardsList from './components/CardsList';
 import SearchBox from './components/SearchBox';
 import 'tachyons';
+import axios from "axios";
+
 
 class App extends React.Component {
   constructor(){
@@ -13,28 +15,34 @@ class App extends React.Component {
     }
   }
 
-  componentDidMount(){
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then(res => res.json())
-    .then(data => {
-      // this.state.arr = data
-      // console.log(this.state.arr);
-      this.setState({arr:data})
-    })
-    .catch(err => {
-      console.log(err);
-    })
+  // componentDidMount(){
+  //   axios.get('https://jsonplaceholder.typicode.com/users')
+  //   .then(res => res.data)
+  //   .then(data => {
+  //     // this.state.arr = data
+  //     // console.log(this.state.arr);
+  //     this.setState({arr:data})
+  //   })
+  //   .catch(err => {
+  //     console.log(err);
+  //   })
+  // }
+  async componentDidMount() {
+    try {
+      const req = await axios.get('https://jsonplaceholder.typicode.com/users')
+      const res = await req.data
+       this.setState({arr:res})
+    } catch (e) {
+      console.log(e)
+    }
+
   }
 
-  handleChange = (event) => {
-    // console.log(event.target.value);
-    // this.setState({ searchText:event.target.value })
-    this.state.searchText = event.target.value;
-  }
 
-  handleClick = () => {
+
+  handleClick = (val) => {
     console.log('click');
-    this.setState({searchText:this.state.searchText});
+    this.setState({searchText:val});
   }
 
   render(){
@@ -46,7 +54,7 @@ class App extends React.Component {
 
     return (
       <div className='tc'>
-        <SearchBox handleChange={this.handleChange} handleClick={this.handleClick}/>
+        <SearchBox handleClick={this.handleClick}/>
         <CardsList robots={filteredRobots} />
       </div>
     );

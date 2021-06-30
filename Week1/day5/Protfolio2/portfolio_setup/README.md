@@ -56,7 +56,7 @@ Add semantic tags for the navbar, header, and multiple profile sections.
 1. Space them nicely
 1. Kepp things responsive by using the Bootstrap grid.
 1. For the *Blog* section, use Bootstrap4 "Cards". They are prebuilt elements ready to use."
-1. For the *Contact* section, use a form and the Bootstrap form controls.
+1. For the *ContactsList* section, use a form and the Bootstrap form controls.
 1. You can add social media icons using one of Bootstraps recommended Icon Sets.
 
 # ! Important !

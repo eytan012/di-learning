@@ -1,0 +1,32 @@
+.exersice-one input{
+  text-align: center;
+  margin: 2px;
+}
+.exersice-one{
+  padding: 5px;
+}
+nav {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background: #cfd8dc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d47a1;
+  font-size: 1.2rem;
+}
+nav a:hover{
+  background-color: #f1f1f1;
+}

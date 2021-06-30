@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #518a8b;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.search-weather {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.search-weather input{
+    padding: 10px;
+}
+.search-weather button{
+    margin: 1px;
+    padding: 10px;
+    border-style: none;
+    color: white;
+    background-color: #518a8b;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.jumbotron {
+    padding: 30px; /* fills out the jumbotron */
+    background-color: #75a6a7;
+}
+
+.container {
+    width: 1170px; /* specify a width */
+    margin: 0 auto;  /* centers the container */
+    padding: 0 15px; /* adds some padding to the left and right*/
+}
+
+.jumbotron .container {
+    max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+    background-color: #000000;
+    opacity: .6;
+    padding-right: 0px;
+    width: 541px;
+}
+
+.jumbotron h3 {
+    text-align: center; /* centers the heading */
+    color: #DDD;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}

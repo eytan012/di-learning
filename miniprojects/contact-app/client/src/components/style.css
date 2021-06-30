@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+}
+
+form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+form button {
+    width: 50px;
+    align-self: center;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    max-width: 50px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.singleContact {
+    max-width: 80%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.singleContact p {
+    color: #3b3b3b;
+    font-size: 15px;
+    max-height: 10px;
+}
+
+.singleContact button {
+    cursor: pointer;
+    display: flex;
+    align-self: flex-start;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    max-width: 50px;
+    margin: 5px;
+    padding: 5px;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.book-card-icon{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.plusHideAndShowIcon{
+    padding: 10px;
+}
+
+.plusHideAndShowIcon i{
+    cursor: pointer;
+    font-size: 35px;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .singleContact{
+        text-align: center;
+        margin-top: 10px;
+        max-width: 100%;
+    }
+}

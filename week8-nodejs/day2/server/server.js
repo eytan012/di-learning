@@ -26,7 +26,7 @@ app.route('/login')
 
 
 app.get('/contact',(req,res)=>{
-    res.send('<h1>Contact</h1>')
+    res.send('<h1>ContactsList</h1>')
 })
 
 app.get('/user/:id',(req,res)=>{

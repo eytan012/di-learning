@@ -59,6 +59,6 @@ async function getStars() {
 //     starHeight.innerText = `Height: ${obj.height}`
 //     starGender.innerText = `Gender: ${obj.gender}`
 //     starBirth.innerText = `Birth Year: ${obj.birth_year}`
-//     starHome.innerText = `Home World:${homeStar}`
+//     starHome.innerText = `Contact World:${homeStar}`
 // }
 //

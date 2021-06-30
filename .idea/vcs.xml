@@ -5,5 +5,8 @@
     <mapping directory="$PROJECT_DIR$/Week1/day-1/landing page" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Week1/day5/ProtfolioProject/portfolio_setup" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Week3/day1/Playthegame_MiniProject_W2D5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/miniprojects/blog-app-mern/backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/miniprojects/blog-app-mern/client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/miniprojects/react-portfolio-v1/react-portfolio" vcs="Git" />
   </component>
 </project>

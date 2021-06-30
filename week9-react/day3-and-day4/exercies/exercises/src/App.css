@@ -1,0 +1,16 @@
+.FormComponent{
+  min-height: 25vh;
+  background-color: sandybrown;
+
+}
+
+.EnteredInformation{
+  background-color:teal ;
+}
+
+.herosList {
+  display: grid;
+  grid-template-columns: repeat(6,15%);
+  grid-gap: 10px;
+  width: 100%;
+}
